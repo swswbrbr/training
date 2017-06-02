@@ -66,14 +66,14 @@ public class AirService {
 	        urlBuilder.append("&" + URLEncoder.encode("searchCondition","UTF-8") + "=" + URLEncoder.encode("DAILY", "UTF-8"));
 	        urlBuilder.append("&" + URLEncoder.encode("pageNo","UTF-8") + "=" + URLEncoder.encode("1", "UTF-8"));
 	        urlBuilder.append("&" + URLEncoder.encode("numOfRows","UTF-8") + "=" + URLEncoder.encode("10", "UTF-8"));
-	        urlBuilder.append("&" + URLEncoder.encode("ServiceKey","UTF-8") + "=eOiULzhgqWaYk9TD9F7LwEYmTa5pwuleK6fyoJ9u%2BbJUq6raOo51WOHpkyef3Jee%2B8PIP3BmulsnuDwIgr5UDQ%3D%3D");
+	        urlBuilder.append("&" + URLEncoder.encode("ServiceKey","UTF-8") + "=인증키입력");
 	        //urlBuilder.append("&" + URLEncoder.encode("ver","UTF-8") + "=" + URLEncoder.encode("1.3", "UTF-8"));
 	        
 	        //urlBuilder.append("?" + URLEncoder.encode("tmX","UTF-8") + "=" + URLEncoder.encode("244148.546388", "UTF-8"));
 	        //urlBuilder.append("&" + URLEncoder.encode("tmY","UTF-8") + "=" + URLEncoder.encode("412423.75772", "UTF-8"));
 	        //urlBuilder.append("&" + URLEncoder.encode("pageNo","UTF-8") + "=" + URLEncoder.encode("1", "UTF-8"));
 	        //urlBuilder.append("&" + URLEncoder.encode("numOfRows","UTF-8") + "=" + URLEncoder.encode("10", "UTF-8"));
-	        //urlBuilder.append("&" + URLEncoder.encode("ServiceKey","UTF-8") + "=eOiULzhgqWaYk9TD9F7LwEYmTa5pwuleK6fyoJ9u%2BbJUq6raOo51WOHpkyef3Jee%2B8PIP3BmulsnuDwIgr5UDQ%3D%3D");
+	        //urlBuilder.append("&" + URLEncoder.encode("ServiceKey","UTF-8") + "=인증키입력");
 	        
 	        URL url = new URL(urlBuilder.toString());
 	        HttpURLConnection conn = (HttpURLConnection) url.openConnection();
